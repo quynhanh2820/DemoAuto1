@@ -1,0 +1,27 @@
+1. Automation Test là gì?
+
+	- Automation Test là quá trình sử dụng công cụ hoặc framework để tự động thực hiện các kịch bản kiểm thử phần mềm thay vì kiểm thử thủ công.  
+
+2. Tại sao cần Auto Test?
+
+	- Tiết kiệm thời gian và chi phí.
+	- Đảm bảo chất lượng phần mềm: Giúp phát hiện lỗi sớm trong quá trình phát triển.
+	- Tăng độ chính xác.
+	- Hỗ trợ Regression test.
+
+3. Khi nào cần chạy kịch bản Auto Test?
+
+	- Khi thực hiện Regression Test.
+	- Khi cần kiểm thử Smoke Test hoặc Sanity Test nhanh chóng.
+	- Khi dự án yêu cầu kiểm thử lặp đi lặp lại.
+	- Khi cần kiểm thử trên nhiều môi trường.
+
+4. Có mấy loại Selenium? Kể tên?
+
+Selenium là một bộ công cụ kiểm thử tự động cho ứng dụng web, gồm các thành phần chính:
+
+	- Selenium IDE: Công cụ ghi và phát lại test, dùng cho người mới bắt đầu.
+	- Selenium WebDriver: API mạnh mẽ để viết test bằng nhiều ngôn ngữ (Java, Python, C#, v.v.).
+	- Selenium Grid: Cho phép chạy test song song trên nhiều máy và nhiều trình duyệt.
+
+

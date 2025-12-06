@@ -1,0 +1,29 @@
+Tìm hiểu về framework
+1. Cucumber using Serenity BDD + Screenplay
+
+	- Cucumber: Framework BDD cho phép viết test bằng ngôn ngữ Gherkin.
+	- Serenity BDD: Tạo báo cáo chi tiết, hỗ trợ Screenplay Pattern.
+	- Screenplay Pattern: Thiết kế test dễ bảo trì, tập trung vào hành động của Actor.
+
+Ưu điểm:
+	- Báo cáo đẹp, dễ đọc.
+	- Hỗ trợ BDD, dễ hiểu cho BA/QA.
+	- Tích hợp tốt với Selenium, Appium.
+
+Nhược điểm: 
+	- Cấu hình ban đầu phức tạp.
+	- Yêu cầu hiểu rõ mô hình Screenplay.
+
+2. Playwright
+
+	- Framework hiện đại cho end-to-end testing.
+	- Hỗ trợ nhiều ngôn ngữ: JS, TS, Python, Java, .NET.
+
+Ưu điểm: 
+	- Tốc độ nhanh, hỗ trợ đa trình duyệt.
+	- Auto-wait, chạy song song.
+	- API đơn giản, dễ dùng.
+
+Nhược điểm
+	- Chưa hỗ trợ BDD trực tiếp (cần tích hợp thêm).
+	- Chủ yếu mạnh về UI testing.
