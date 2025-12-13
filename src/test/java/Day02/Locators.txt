@@ -1,0 +1,60 @@
+--Your Cart--
+//a[@id="item_4_title_link"]
+//a[@id="item_1_title_link"]
+//a[@id="item_2_title_link"]
+//a[@id="item_0_title_link"]
+//a[@id="item_5_title_link"]
+//a[@id="item_3_title_link"]
+
+//div[contains(text(),'Sauce Labs Backpack')]
+//div[contains(text(),'Sauce Labs Bolt T-Shirt')]
+//div[contains(text(),'Sauce Labs Onesie')]
+//div[contains(text(),'Sauce Labs Bike Light')]
+//div[contains(text(),'Sauce Labs Fleece Jacket')]
+//div[contains(text(),'Test.allTheThings() T-Shirt (Red)')]
+
+//a[@id="item_3_title_link"]/ancestor::div[@class='cart_item_label']/descendant::div[@class='inventory_item_price']
+//div[contains(text(),'Sauce Labs Backpack')]/ancestor::div[@class='cart_item_label']/descendant::div[@class='inventory_item_price']
+//div[contains(text(),'Sauce Labs Bolt T-Shirt')]/ancestor::div[@class='cart_item_label']/descendant::div[@class='inventory_item_price']
+//div[contains(text(),'Onesie')]/ancestor::div[@class='cart_item_label']/descendant::div[@class='inventory_item_price']
+//div[contains(text(),'Light')]/ancestor::div[@class='cart_item_label']/descendant::div[@class='inventory_item_price']
+//div[contains(text(),'Jacket')]/ancestor::div[@class='cart_item_label']/descendant::div[@class='inventory_item_price']
+
+//button[@name="continue-shopping"]
+//button[@name="checkout"]
+//a[text()="Twitter"]
+//a[text()="Facebook"]
+//a[text()="LinkedIn"]
+//a[@data-test="shopping-cart-link"]
+//button[@id="react-burger-menu-btn"]
+
+//a[@id="item_3_title_link"]/ancestor::div[@class='cart_item_label']/descendant::button[text()='Remove']
+//div[contains(text(),'Backpack')]/ancestor::div[@class='cart_item_label']/descendant::button[text()='Remove']
+//div[contains(text(),'Shirt')]/ancestor::div[@class='cart_item_label']/descendant::button[text()='Remove']
+//div[contains(text(),'Onesie')]/ancestor::div[@class='cart_item_label']/descendant::button[text()='Remove']
+//div[contains(text(),'Light')]/ancestor::div[@class='cart_item_label']/descendant::button[text()='Remove']
+//div[contains(text(),'Jacket')]/ancestor::div[@class='cart_item_label']/descendant::button[text()='Remove']
+
+
+--Checkout: Your Information--
+//input[@placeholder="First Name"]
+//input[@name="lastName"]
+//input[@id="postal-code"]
+//button[@name="cancel"]
+//input[@value="Continue"]
+
+
+--Checkout: Overview--
+//div[@class="summary_info"]//child::div[text(),'Payment Information:']
+//div[@class="summary_info"]//div[contains(text(),'Shipping')]
+//div[@class="summary_info"]//div[contains(text(),'Price Total')]
+//div[@class="summary_info"]//div[contains(text(),'Tax')]
+//button[@name="cancel"]
+//button[contains(text(),"Finish")]
+
+
+--Checkout: Complete!--
+//span[@class="title"]
+//img[@class="pony_express"]
+//div[@data-test="complete-text"]
+//button[@data-test="back-to-products"]
